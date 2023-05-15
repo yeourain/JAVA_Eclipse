@@ -1,0 +1,6 @@
+
+class Person{
+	// Field
+	static String country = "KOREA"; // static 필드는 new Person("홍길동") 이전에도 존재한다.
+	String name; // non-static 필드는 new Person("홍길동") 이후에 값이 존재 할 수 있다.
+}
