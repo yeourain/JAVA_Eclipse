@@ -5,7 +5,7 @@ class Document {
 	// static 필드 
 	static int cnt = 0;
 	
-	// non-static 필드 .
+	// non-static 필드 
 	String fileName;
 	
 	Document() {
