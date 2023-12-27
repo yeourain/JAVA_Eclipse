@@ -19,5 +19,15 @@ public class Ex02_literal {
 		System.out.println(true);
 		System.out.println(false);
 		
+		// 5. 이스케이프 문자
+		// 1) \n : 줄바꿈 
+		System.out.println("Hello\n");
+		// 2) \t : 탭 
+		System.out.print("Hello\t");
+		System.out.println("Hello");
+		// 3) \" : 쌍따옴표 
+		System.out.println("\"Hello\"");
+		// 3) \' : 홑따옴표 
+		System.out.println("\'Hello\'");
 	}
 }
